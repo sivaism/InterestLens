@@ -21,8 +21,8 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js", "sidebar.js"],
-      "css": ["sidebar.css"],
+      "js": ["content.js", "sidebar.js", "authLens.js"],
+      "css": ["sidebar.css", "authLens.css"],
       "run_at": "document_idle"
     }
   ],
